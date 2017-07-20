@@ -39,7 +39,7 @@ In order to achieve this:
 ##  Use git to manage your work
 * In order to contribute, we are each going to be using a separate branch. Everyone is going to have a separate branch which is named after them. So fire up your terminal, go into the root directory of project and enter the command:
   ~~~~
-  git checkout -b <yourname> master
+  git checkout -b {yourname} master
   ~~~~
   e.g git checkout -b lehone master
   
