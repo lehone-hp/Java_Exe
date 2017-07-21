@@ -37,19 +37,15 @@ In order to achieve this:
   ~~~~
 
 ##  Use git to manage your work
-* In order to contribute, we are each going to be using a separate branch. Everyone is going to have a separate branch which is named after them. So fire up your terminal, go into the root directory of project and enter the command:
+* In order to contribute, we are each going to work with the master branch of our fork. So enter the command:
   ~~~~
-  git checkout -b {yourname} master
+  git status
   ~~~~
-  e.g git checkout -b lehone master
+  to check if your on the master branch which you are suppose to be in.
+
+  Now you may start working on your task in the master branch.
   
-* Push the branch to your fork
-  ~~~~
-  git	push	-u	origin	{branchname}
-  ~~~~
-  Now you may start working on your task in the newly created branch
-  
-* To identify which files you have changed
+* To identify which files you have changed use:
   ~~~~
   git status
   ~~~~
