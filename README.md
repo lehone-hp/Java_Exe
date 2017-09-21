@@ -1,5 +1,5 @@
-# JUG_Meetup
-This repository will hold the code submitted by all those studying Java using Java How to Program by deitel
+# Java_Exe
+This repository will hold the codes from your completed exercises from Java using Java How to Program by deitel
 
 # Getting Started
 In order to begin working with this repository, you need to have the following
@@ -24,16 +24,16 @@ The folders are going to contain the code of the completed tasks for each user a
 Each contributor will create a sub folders labeled week1, week2... and store the conresponding tasks for each week.
 In order to achieve this:
 
-* First fork the JUG_Meetup repository from lehone-hp. You may use the tutorial http://help.github.com/fork-a-repo
+* First fork the Java_Exe repository from lehone-hp. You may use the tutorial http://help.github.com/fork-a-repo
 
 * Clone	the	project	repository	from	your	fork so that you can start working on it.	Fire	up	Terminal, move to the directory where you want the projrct to be stored	and	enter	the	  command:		
   ~~~~
-  git	clone	https://github.com/{yourusername}/JUG_Meetup.git
+  git	clone	https://github.com/{yourusername}/Java_Exe.git
   ~~~~
 
 * Now,	go	into	the	folder	just	created	and	set	up	the	"upstream"	remote	so	you	can	eventually	pull	changes	from	the main	repository. 
   ~~~~
-  git	remote	add	upstream	https://github.com/lehone-hp/JUG_Meetup.git
+  git	remote	add	upstream	https://github.com/lehone-hp/Java_Exe.git
   ~~~~
 
 ##  Use git to manage your work
@@ -76,6 +76,6 @@ After	multiple	iterations	of	making	changes	to	your	code	and	committing	them	int
   ~~~~
   Running	this	command	will	prompt	you	to	authenticate	into	GitHub.	After	doing	so,	it	will	upload	the	changes	into	your	fork. You	may	now	visit	your	push	on	GitHub	at	a	URL	like
   
-		http://github.com/{yourgithubname}/JUG_Meetup/
+		http://github.com/{yourgithubname}/Java_Exe/
     
-* Now create a pull request using the create pull request link on Github so that your code can be merged with the main repository; lehone-hp/JUG_Meetup
+* Now create a pull request using the create pull request link on Github so that your code can be merged with the main repository; lehone-hp/Java_Exe
