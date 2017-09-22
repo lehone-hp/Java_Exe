@@ -102,7 +102,6 @@ class heartrates{
         float a[]= new float[2];
         a[0]=maxheartrate(mon,day,year)*50/100;
         a[1]=maxheartrate(mon,day,year)*85/100;
-        System.out.println(a[0]+" "+a[1]);
         return a;
     }
 }
@@ -120,11 +119,7 @@ public class Target_heart_rate_calculator {
      */
     public static void main(String[] args) {
         heartrates ivan=new heartrates();
-        int date[]=new int[3];
-        float a[]=new float[2];
-        date[0]=7;
-        date[1]=24;
-        date[2]=2017;
+        Date today=new Date();
         Scanner input=new Scanner(System.in);
         System.out.printf("whats your first name : ");
         ivan.setfirstname(input.nextLine());
@@ -136,8 +131,7 @@ public class Target_heart_rate_calculator {
         ivan.setdob(input.nextInt());
         System.out.printf("whats your year of birth : ");
         ivan.setyob(input.nextInt());
-        a=ivan.targetheartrate(date[0],date[1],date[2]);
-        System.out.printf("name : %s %s\nage : %d\nMax heart rate : %d\nTarget heart rate : %.0f-%.0f",ivan.getfirstname(),ivan.getlastname(),ivan.getage(date[0],date[1],date[2]),ivan.maxheartrate(date[0],date[1],date[2]),a[0],a[1]);
+        System.out.printf("name : %s %s\nage : %d\nMax heart rate : %d\nTarget heart rate : %.0f-%.0f",ivan.getfirstname(),ivan.getlastname(),ivan.getage(today.getMonth(),today.getDay(),today.getYear()+1900),ivan.maxheartrate(today.getMonth(),today.getDay(),today.getYear()+1900),ivan.targetheartrate(today.getMonth(),today.getDay(),today.getYear()+1900)[0],ivan.targetheartrate(today.getMonth(),today.getDay(),today.getYear()+1900)[1]);
     }
     
 }
