@@ -63,11 +63,11 @@ public class file_search {
     	Path l= Paths.get("/home");
         Path w= Paths.get("C:\\");
         int i;
-        System.out.printf("which operating system are you using 1:linux 2:Windows");
+        System.out.printf("which operating system are you using 1:linux 2:Windows :");
         try{
             i=input.nextInt();
         }
-        catch(IllegalArgumentException e){
+        catch(InputMismatchException e){
             System.out.printf("%s",e);
             return;
         }
